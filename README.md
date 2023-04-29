@@ -16,7 +16,7 @@ select distinct a.district
 ``` SQL
 select *  
   from payment  
-  where Date(payment_date)  between '2005-06-15' and '2005-06-18' ;
+  where Date(payment_date)  between '2005-06-15' and '2005-06-18' and amount > 10;
 ```
 
 ### Задание 3
